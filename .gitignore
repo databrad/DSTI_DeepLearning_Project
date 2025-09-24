@@ -1,0 +1,11 @@
+# Exclude all downloaded and raw data since these files are too big
+# An example of how to read raw data from HuggingFace public repo is provided in example_of_how_to_read_raw_data.ipynb
+data/downloaded_data/*
+data/raw_data/*
+
+# Do not import your secrets on github
+.env
+
+
+*.csv
+*.feather
