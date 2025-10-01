@@ -16,7 +16,7 @@ conda activate myenv
 
 conda install -c conda-forge poetry
 
-poetry install
+poetry install --no-root
 ```
 4. Make sure everything is okay before start working
 
