@@ -18,10 +18,6 @@ conda install -c conda-forge poetry
 
 poetry install --no-root
 ```
-4. Make sure everything is okay before start working
-
-Go to the example_of_how_to_read_raw_data.ipynb notebook and run all cells to make sure you're able to access all raw data.
-
 4. Before start working, create a new branch (e.g. feature/new-branch) from develop up-to-date
 ```
 git checkout -b feature/new-branch develop
