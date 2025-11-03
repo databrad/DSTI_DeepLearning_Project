@@ -7,6 +7,7 @@ data/*
 *.csv
 *.feather
 *.txt
+*.npy
 
 # Exclude all info on gradient boosting training folder : catboost/*
-modeling_notebooks/model_from_scratch/catboost_info/*
+modeling_notebooks/base_model/catboost_info/*
