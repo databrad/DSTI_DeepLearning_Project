@@ -80,7 +80,7 @@ poetry install --no-root
         │ ├─ clean_version/
         ```
 
-        -   Put all the 479 ZENODO data files downloaded in the `DSTI_DEEPLEARNING_PROJECT/data/raw_version/zenodo_data/` folder, whereas put the one KAGGLE file in the folder `DSTI_DEEPLEARNING_PROJECT/data/raw_version/kaggle_data/` .
+        -   Put all the 59 ZENODO data files downloaded in the `DSTI_DEEPLEARNING_PROJECT/data/raw_version/zenodo_data/` folder, whereas put the one KAGGLE file in the folder `DSTI_DEEPLEARNING_PROJECT/data/raw_version/kaggle_data/` .
         -   Finally, you can execute all the cells of the notebook except the last one since you do not have rights needed to push on the Hugging Face repository specified in the variable `CLEAN_DATA_PATH` even though you can read from it.
 
 ## **Licence**
