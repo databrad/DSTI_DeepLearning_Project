@@ -11,7 +11,8 @@ Please, refer to the `Introduction` part of the notebook `cleaning_notebooks/cle
 -   **Structure**
 
 A global view of this project structure is :
-```
+
+```         
 DSTI_DEEPLEARNING_PROJECT/
 ├─ cleaning_notebooks/
 │  ├─ __init__.py
@@ -32,6 +33,7 @@ DSTI_DEEPLEARNING_PROJECT/
 ├─ .gitignore
 ├─ LICENSE
 ├─ README.md
+├─ README.html
 ├─ poetry.lock
 ├─ pyproject.toml
 ```
@@ -67,7 +69,7 @@ poetry install --no-root
 
     -   You can freely inspect in the folder `cleaning_notebooks/clean_raw_data.ipnyb`, but before executing it :
 
-        -   Read well the introduction part of the notebook, and download any needed raw datasets explained in it (in total \~2GB).
+        -   Read well the introduction part of the notebook, and download any needed raw datasets explained in it (in total \~2GB). You can also download the .rar version of them using this [link](https://huggingface.co/datasets/pfacouetey/DSTI_Deep_Learning_Project_2025/tree/main). `kaggle_data.rar` contains the one csv file that need to be put in the folder `kaggle_data/*`, whereas `zenodo_data.rar` contians all the 59 csv files that need to put in the `zenodo_data/*` folder.
 
         -   Create a folder `data` with this structure :
 
