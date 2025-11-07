@@ -64,7 +64,7 @@ conda install -c conda-forge poetry
 poetry install --no-root
 ```
 
--   **Inspect and/or execute notebooks :**
+-   **Inspect and/or execute notebooks (using GPU is recommended for their execution):**
     -   You can freely inspect and execute any notebook in the folder `modeling_noteboks/*` .
 
     -   You can freely inspect in the folder `cleaning_notebooks/clean_raw_data.ipnyb`, but before executing it :
