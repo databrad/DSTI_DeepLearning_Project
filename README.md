@@ -32,6 +32,7 @@ DSTI_DEEPLEARNING_PROJECT/
 │  ├─ base_model/
 │  │  ├─ __init__.py
 │  │  ├─ train_a_catboost_model.ipynb
+├─ .gitattributes
 ├─ .gitignore
 ├─ LICENSE
 ├─ README.md
