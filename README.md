@@ -111,6 +111,29 @@ poetry install --no-root
 
         -   The notebook `production/inference_on_new_data.ipynb` displays the process of how to infer on new data with the trained models. At the end of the notebook, you have this link <https://huggingface.co/spaces/paragonadey/mental-health-text-classifier> to access the best of the trained models to predict mental health state of a person based on the text he provides online.
 
+-    ## Test the model with a frontend:
+  
+  Steps to launch and test the app !
+
+Install Docker Desktop from : https://docs.docker.com/desktop/setup/install/windows-install/
+
+The application is composed of two docker images: backend and frontend.
+
+    1 - Pull the images from docker hub (backend and frontent)
+    
+        docker pull bradesteve/mental-health-frontend:latest
+        docker pull bradesteve/mental-health-backend:latest
+    
+    2 - Run the containers :
+    
+        docker run -p 8000:8000 bradesteve/mental-health-backend:latest # backend runs on port 8000
+        docker run -p 80:80 bradesteve/mental-health-frontend:latest # frontend runs on port 80
+    
+    3 - Launch the app in localhost :
+    
+        http://localhost:80
+
+
 ## **Licence**
 
 This project is registered under the terms of the MIT license. For any further details, consult the LICENSE file.
